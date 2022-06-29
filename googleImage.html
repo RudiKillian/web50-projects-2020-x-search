@@ -2,18 +2,22 @@
 <html lang="en">
     <head>
         <title>Search</title>
-        <link rel="stylesheet" href=""style.css>
+        <link rel="stylesheet" href=""styles.css>
     </head>
-    <body>
+    <header class="centered">
+        <h1>SearchEngine</h1>
+    </header>
+    <body class="centered">
         <ul class="navbar">
-            <li><a href="index.html">Back To Search</a></li>
+            <li class="nav-item">
+                <a class="nav-link active" href="index.html">Back To Search</a>
+            </li>
         </ul>
-        <div>
-            <h1>SearchEngine</h1>
+        <div></div>
             <form action="https://google.com/search">
                 <input type="text" name="q" class="searchTextBox">
                 <input hidden="true" name="tbm" value="isch">
-                <input type="submit" name="search" value="Image Search" class="searchButton">
+                <input type="submit" name="search" value="Image Search" class="searchButtonImage">
             </form>
         </div>        
     </body>
